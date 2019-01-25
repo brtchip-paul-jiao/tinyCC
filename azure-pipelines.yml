@@ -11,5 +11,6 @@ pool:
 
 steps:
 - script: |
+    ./configure
     make
   displayName: 'make'
