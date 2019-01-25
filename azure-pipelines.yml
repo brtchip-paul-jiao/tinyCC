@@ -13,4 +13,5 @@ steps:
 - script: |
     ./configure
     make
+    make test
   displayName: 'make'
